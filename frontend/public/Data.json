@@ -1,0 +1,261 @@
+[
+  {
+    "name": "Candy & Strawberry",
+    "brand": "Arun",
+    "description": "Delicious chocolate ice cream with a crunchy waffle cone.",
+    "price": 30.00,
+    "imageUrl": "https://arunicecreams.in/images/kids-bar/trio-raspberry-vanilla-mango.jpg",
+    "rating": 4
+  },
+  {
+    "name": "Amul Real Milk",
+    "brand": "Amul",
+    "description": "A refreshing strawberry ice cream with a smooth texture.",
+    "price": 35.00,
+    "imageUrl": "https://5.imimg.com/data5/OW/WE/MY-30494656/amul-realmilk-ice-cream.jpg",
+    "rating": 4
+  },
+  {
+    "name": "Gajar Ka Halwa",
+    "brand": "Arun",
+    "description": "Sweet Gajar ice cream with a rich creamy taste.",
+    "price": 85.00,
+    "imageUrl": "https://arunicecreams.in/images/tubs/latest/TUBS-500ML-WITH-SCOOP-GAJAR-KA-HALWA.jpg",
+    "rating": 5
+  },
+  {
+    "name": "Tutti Fruitti",
+    "brand": "Mother Dairy",
+    "description": "Mint chocolate chip ice cream with crunchy chocolate pieces.",
+    "price": 160.00,
+    "imageUrl": "https://www.bigbasket.com/media/uploads/p/l/40125745_3-mother-dairy-ice-cream-tutti-fruitti.jpg",
+    "rating": 2
+  },
+  {
+    "name": "Valilla",
+    "brand": "Top'N Town",
+    "description": "A rich and creamy caramel ice cream topped with crunchy nuts.",
+    "price": 160.00,
+    "imageUrl": "https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/images/no-sugar-vanilla.png",
+    "rating": 4
+  },
+  {
+    "name": "Cookie & Cream",
+      "brand": "Mother Dairy",
+      "description": "Mint chocolate chip ice cream with crunchy chocolate pieces.",
+      "price": 200.00,
+      "imageUrl": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=900/app/images/products/sliding_image/519007a.jpg",
+      "rating": 4
+  },
+  {
+    "name": "Mango Bar",
+    "brand": "Arun",
+    "description": "A tangy lemon sorbet that is light and refreshing.",
+    "price": 25.00,
+    "imageUrl": "https://arunicecreams.in/images/bars/two-in-one-mango.jpg",
+    "rating": 3
+  },
+  {
+    "name": "Fruit & Nut",
+    "brand": "Kwality Walls",
+    "description": "Coconut ice cream with a smooth, tropical taste.",
+    "price": 95.00,
+    "imageUrl": "https://assets.unileversolutions.com/v1/1862845.png",
+    "rating": 3
+  },
+  {
+    "name": "Pineapple & Vanilla",
+    "brand": "Arun",
+    "description": "Raspberry sorbet with a sweet and tangy flavor.",
+    "price": 40.00,
+    "imageUrl": "https://img.thecdn.in/330116/SKU-2847_0-1716989490785.jpg?width=600&format=webp",
+    "rating": 5
+  },
+  {
+    "name": "Mango Flavor",
+    "brand": "Kwality Walls",
+    "description": "Pistachio ice cream with roasted pistachio pieces.",
+    "price": 90.00,
+    "imageUrl": "https://m.media-amazon.com/images/I/61SrSAV3q0L.jpg",
+    "rating": 5
+  },
+  {
+    "name": "Dark Chocolate",
+    "brand": "Arun",
+    "description": "Dark chocolate ice cream with a rich, deep flavor.",
+    "price": 60.00,
+    "imageUrl": "https://arunicecreams.in/images/specialites/latest/Mini-Ball-Vanilla-Chocolate.jpg",
+    "rating": 2
+  },
+  {
+    "name": "Buttor Scotch",
+    "brand": "Top'N Town",
+    "description": "A rich and creamy caramel ice cream topped with crunchy nuts.",
+    "price": 190.00,
+    "imageUrl": "https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/images/butter-scotch.png",
+    "rating": 4
+  },
+  {
+    "name": "Pista e Kulfi",
+      "brand": "Mother Dairy",
+      "description": "Mint chocolate chip ice cream with crunchy chocolate pieces.",
+      "price": 230.00,
+      "imageUrl": "https://www.bigbasket.com/media/uploads/p/xxl/40004515_5-mother-dairy-indian-classic-ice-cream-pista-e-kulfi-pista-kulfi-flavour.jpg",
+      "rating": 2
+  },
+  {
+    "name": "Sandwich",
+    "brand": "Kwality Walls",
+    "description": "Pistachio ice cream with roasted pistachio pieces.",
+    "price": 80.00,
+    "imageUrl": "https://www.jiomart.com/images/product/original/491390851/kwality-wall-s-chocolate-vanilla-sandwich-ice-cream-80-ml-pack-product-images-o491390851-p597014219-0-202301071728.jpg?im=Resize=(1000,1000)",
+    "rating": 5
+  },
+  {
+    "name": "Amul-Chocochips",
+    "brand": "Amul",
+    "description": "Banana ice cream with chunks of ripe banana mixed in.",
+    "price": 120,
+    "imageUrl": "https://nileshdryfruits.com/wp-content/uploads/2023/07/amu-chocochips.jpg",
+    "rating": 4
+  },
+  {
+    "name": "Tricone Chocolate",
+    "brand": "Amul",
+    "description": "Pistachio ice cream with roasted pistachio pieces.",
+    "price": 35.00,
+    "imageUrl": "https://cdn.zeptonow.com/production/tr:w-640,ar-900-900,pr-true,f-auto,q-80/cms/product_variant/7aee2d5b-762a-44d1-a158-f4bb9bb84a38.jpg",
+    "rating": 5
+  },
+  {
+    "name": "Black Current",
+    "brand": "Kwality Walls",
+    "description": "Pistachio ice cream with roasted pistachio pieces.",
+    "price": 110.00,
+    "imageUrl": "https://assets.unileversolutions.com/v1/1862826.png",
+    "rating": 5
+  },
+  {
+    "name": "Coffee Bar",
+    "brand": "Amul",
+    "description": "Pistachio ice cream with roasted pistachio pieces.",
+    "price": 40.00,
+    "imageUrl": "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/NI_CATALOG/IMAGES/CIW/2024/3/4/39f9a564-acc0-46d0-8a8e-cce24535d342_icecream_FI9BYY67ZJ_MN.png",
+    "rating": 4
+  },
+  {
+    "name": "Sitaphal",
+    "brand": "Top'N Town",
+    "description": "A rich and creamy caramel ice cream topped with crunchy nuts.",
+    "price": 210.00,
+    "imageUrl": "https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/images/100ml-sitaphal.png",
+    "rating": 4
+  },
+  {
+    "name": "Pista Flavor",
+    "brand": "Arun",
+    "description": "Rich chocolate fudge ice cream with a creamy texture.",
+    "price": 180.00,
+    "imageUrl": "https://b.zmtcdn.com/data/dish_photos/6c8/fce06a6936119e4389a678dfcfbbb6c8.jpg",
+    "rating": 4
+  },
+  {
+    "name": "Creme Rich",
+    "brand": "Amul",
+    "description": "Pistachio ice cream with roasted pistachio pieces.",
+    "price": 80.00,
+    "imageUrl": "https://www.cpdubai.com/wp-content/uploads/2018/10/ice.png",
+    "rating": 4
+  },
+  {
+    "name": "American Nut",
+    "brand": "Top'N Town",
+    "description": "A rich and creamy caramel ice cream topped with crunchy nuts.",
+    "price": 220.00,
+    "imageUrl": "https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/images/american-nut-tub.png",
+    "rating": 5
+  },
+  {
+    "name": "Mango Magic",
+      "brand": "Mother Dairy",
+      "description": "Mint chocolate chip ice cream with crunchy chocolate pieces.",
+      "price": 140.00,
+      "imageUrl": "https://m.media-amazon.com/images/I/71Yd2cJEDyL.jpg",
+      "rating": 2
+  },
+  {
+    "name": "Shalimar",
+    "brand": "Amul",
+    "description": "Pistachio ice cream with roasted pistachio pieces.",
+    "price": 80.00,
+    "imageUrl": "https://qwickpick.com/wp-content/uploads/2024/10/Amul-Shalimar-ice-cream-Made-with-PosterMyWall.png",
+    "rating": 4
+  },
+  {
+    "name": "Choco Almonds",
+      "brand": "Mother Dairy",
+      "description": "Mint chocolate chip ice cream with crunchy chocolate pieces.",
+      "price": 170.00,
+      "imageUrl": "https://rukminim2.flixcart.com/image/850/1000/ksyz8280/ice-cream/r/g/6/1-ultimate-ice-cream-1-mother-dairy-original-imag6exqhmjgdqsy.jpeg?q=90&crop=false",
+      "rating": 3
+  },
+  {
+    "name": "Gulab Jamun",
+    "brand": "Kwality Walls",
+    "description": "Pistachio ice cream with roasted pistachio pieces.",
+    "price": 80.00,
+    "imageUrl": "https://qwickpick.com/wp-content/uploads/2024/10/kwality-walls-gulab-jamun-Made-with-PosterMyWall.png",
+    "rating": 5
+  },
+  {
+    "name": "Rajbhog",
+    "brand": "Top'N Town",
+    "description": "A rich and creamy caramel ice cream topped with crunchy nuts.",
+    "price": 170.00,
+    "imageUrl": "https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/images/rajbhog.png",
+    "rating": 5
+  },
+  {
+  "name": "Chillz",
+    "brand": "Mother Dairy",
+    "description": "Mint chocolate chip ice cream with crunchy chocolate pieces.",
+    "price": 55.00,
+    "imageUrl": "https://m.media-amazon.com/images/I/815mUgoOCJL.jpg",
+    "rating": 3
+},
+  {
+    "name": "Butterscotch",
+    "brand": "Arun",
+    "description": "Pistachio ice cream with roasted pistachio pieces.",
+    "price": 90.00,
+    "imageUrl": "https://arunicecreams.in/images/tubs/latest/TUBS-500ML-WITH-SCOOP-BUTTERSCOTCH-CHOCOLATE-DUAL.jpg",
+    "rating": 5
+  },
+  {
+    "name": "Natural Litchi",
+    "brand": "Top'N Town",
+    "description": "A rich and creamy caramel ice cream topped with crunchy nuts.",
+    "price": 260.00,
+    "imageUrl": "https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/images/litchi-tub-1.png",
+    "rating": 3
+  },
+  {
+    "name": "Cookie Crumb",
+      "brand": "Mother Dairy",
+      "description": "Mint chocolate chip ice cream with crunchy chocolate pieces.",
+      "price": 230.00,
+      "imageUrl": "https://www.jiomart.com/images/product/original/490926269/mother-dairy-ultimate-cookie-crumb-ice-cream-115-ml-tub-product-images-o490926269-p591273615-0-202206281859.jpg?im=Resize=(1000,1000)",
+      "rating": 3
+  },
+  {
+    "name": "Oreo Flavour",
+    "brand": "Kwality Walls",
+    "description": "Coconut ice cream with a smooth, tropical taste.",
+    "price": 95.00,
+    "imageUrl": "https://assets.unileversolutions.com/v1/34129723.png",
+    "rating": 3
+  }
+]
+
+
+

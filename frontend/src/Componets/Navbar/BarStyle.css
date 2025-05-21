@@ -1,0 +1,122 @@
+/* Font Style Add */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Courgette&family=Delius+Swash+Caps&family=Kaushan+Script&family=Lavishly+Yours&family=Matemasie&display=swap');
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #003469;
+  padding: 8px 120px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand h3 {
+  color: white;
+  font-family: "Kaushan Script", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+}
+
+.navbar-brand span {
+  color: rgb(251, 255, 0);
+  font-family: "Kaushan Script", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  animation: blink 1.5s infinite ease-in-out;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.3; }
+  100% { opacity: 1; }
+}
+
+/* Navigation Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #ffce1b;
+  border-bottom: 2px solid gold;
+  transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Authentication Buttons */
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.auth-buttons .login,
+.auth-buttons .signup {
+  border: none;
+  padding: 8px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.auth-buttons .login {
+  background-color: #fff;
+  border: 2px solid #ff5733;
+  color: #ff5733;
+}
+
+.auth-buttons .login:hover {
+  background-color: #ff5733;
+  color: white;
+}
+
+.auth-buttons .signup {
+  background-color: #ff5733;
+  color: white;
+}
+
+.auth-buttons .signup:hover {
+  background-color: #cc4422;
+}
+.logout-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #e60000;
+}

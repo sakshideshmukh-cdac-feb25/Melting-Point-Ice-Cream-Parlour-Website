@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Matemasie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Lavishly+Yours&family=Matemasie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Delius+Swash+Caps&family=Lavishly+Yours&family=Matemasie&display=swap');
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  height: 86vh;
+  width: 100vw;
+  position: relative;
+  z-index: -1;
+  transition: background 1s ease-in-out;
+  overflow: hidden;
+}
+
+.header-content {
+  text-align: center;
+  color: white;
+  width: 35%;
+  margin-left: -40%;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.header-content h2 {
+  font-family: "Courgette", serif;
+  font-size: 80px;
+  color: rgb(255, 0, 85);
+}
+
+.header-content h3 {
+  font-family: "Matemasie", serif;
+  font-size: 40px;
+  padding-bottom: 20px;
+  color: darkblue;
+}
+
+.header-content p {
+  font-family: "Delius Swash Caps", serif;
+  font-size: 22px;
+  padding-bottom: 20px;
+  color: darkred;
+}
+
+.header-content .buy-order button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 200px;
+}
+
+/* Background Image Sliding Effect */
+@keyframes slideRight {
+  0% { transform: translateX(-100%); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+.bg-0, .bg-1, .bg-2, .bg-3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  animation: slideRight 2s ease-out;
+}
+
+.bg-0 {
+  background-image: url('./Assets/Background1.jpg');
+}
+
+.bg-1 {
+  background-image: url('./Assets/Background2.jpg');
+}
+
+.bg-2 {
+  background-image: url('./Assets/Background3.jpg');
+}
+
+.bg-3 {
+  background-image: url('./Assets/Background4.jpg');
+}
+
+/* Rotating Circle */
+.rotate-circle {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  margin-top: 40px;
+  z-index: 1;
+}
+
+.rotate-circle img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 140%;
+}
+
+.rotate-circle .rotate {
+  animation: spin 30s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

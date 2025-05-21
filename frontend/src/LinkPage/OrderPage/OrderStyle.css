@@ -1,0 +1,163 @@
+.OrderPage-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 25px;
+  font-family: "Poppins", sans-serif;
+  /* background-color: #f8f9fa; */
+  height: 84vh;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  gap: 20px;
+}
+
+/* Left Side - Order Items */
+.left-side {
+  width: 60%;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  height: 470px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-side h2 {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background: rgba(255, 87, 51, 0.1);
+  border-radius: 6px;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+}
+
+.item h3 {
+  flex: 1;
+  font-size: 18px;
+  color: #100074;
+  margin: 0 10px;
+}
+
+.item p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff5733;
+}
+
+.quantity-control {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn {
+  background: #ff5733;
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #d9432d;
+}
+
+.decrement, .increment {
+  padding: 8px 15px;
+}
+
+.delete-btn {
+  background: #000658;
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.delete-btn:hover {
+  background: #c9302c;
+}
+
+/* Right Side - Order Summary */
+.right-side {
+  width: 35%;
+  background: white;
+  height: 470px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.right-side h1 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.right-side ul {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+  color: #555;
+}
+
+.right-side li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.right-side h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff5733;
+  margin-top: 15px;
+}
+
+.checkout-btn {
+  background: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 18px;
+  border-radius: 6px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.checkout-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.checkout-btn:hover:not(:disabled) {
+  background: #218838;
+}
+
+/* Empty Cart Message */
+.empty-cart {
+  font-size: 18px;
+  color: #777;
+  font-style: italic;
+}
